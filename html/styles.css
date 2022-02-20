@@ -1,0 +1,68 @@
+:root{
+
+    --primary-color: #5b0b03;
+    --secundary-color: #ffef86;
+    --boton-sucess: #1a1906;
+    --boton-secundary:#f1e876 ;
+    --boton-warning: #280313;
+    --boton-cancelar:#67e306 ;
+    --font-size:16px ;
+    --fonty-color:#514502 ;
+    --font-color-reverse: #e2e2e2;
+}
+body {
+    background-image: url(./img/R.jfif);
+    background-position: center center;
+    height: 800px;
+    
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: #f6e6f20e;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.328);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px solid black;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    
+}
+nav li{
+    
+    display: inline-flex;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+}
+div img{
+    width:300px ;
+    border-radius: 50px;
+}
+p{
+    color: white;
+}
+label{
+    color: white;
+}
+ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+h3{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
